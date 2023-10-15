@@ -1,0 +1,177 @@
+gist.public: Público
+gist.unlisted: No listado
+gist.private: Privado
+
+gist.header.like: Me gusta
+gist.header.unlike: No me gusta
+gist.header.fork: Bifurca
+gist.header.edit: Edita
+gist.header.delete: Borra
+gist.header.forked-from: Bifurcado desde
+gist.header.last-active: Último activo
+gist.header.select-tab: Selecciona una pestaña
+gist.header.code: Código
+gist.header.revisions: Revisiones
+gist.header.revision: Revisión
+gist.header.clone-http: Clonar via %s
+gist.header.clone-http-help: Clona con Git usando autenticación básica HTTP.
+gist.header.clone-ssh: Clonar via SSH
+gist.header.clone-ssh-help: Clona con Git usando una clave SSH.
+gist.header.share: Compartir
+gist.header.share-help: Copia enlace compartido para este gist.
+gist.header.download-zip: Descarga ZIP
+
+gist.raw: Raw
+gist.file-truncated: This file has been truncated.
+gist.watch-full-file: Ver el archivo completo.
+gist.file-not-valid: Este archivo no es un archivo CSV válido.
+gist.no-content: No hay contenido
+
+gist.new.new_gist: Nuevo gist
+gist.new.title: Título
+gist.new.description: Descripción
+gist.new.filename-with-extension: Nombre de archivo con extensión
+gist.new.indent-mode: Modo de indentación
+gist.new.indent-mode-space: Espacio
+gist.new.indent-mode-tab: Tabulador
+gist.new.indent-size: Tamaño de indentación
+gist.new.wrap-mode: Wrap mode
+gist.new.wrap-mode-no: No wrap
+gist.new.wrap-mode-soft: Soft wrap
+gist.new.add-file: Añadir fichero
+gist.new.create-public-button: Crear gist público
+gist.new.create-unlisted-button: Crear gist no listado
+gist.new.create-private-button: Crear gist privado
+
+gist.edit.editing: Editando
+gist.edit.change-visibility: Crear
+gist.edit.delete: Borrar
+gist.edit.cancel: Cancelar
+gist.edit.save: Guardar
+
+gist.list.joined: Unido
+gist.list.all: Todos los gists
+gist.list.search-results: Buscar resultados
+gist.list.sort: Ordena
+gist.list.sort-by-created: creado
+gist.list.sort-by-updated: actualizado
+gist.list.order-by-asc: Menos reciente
+gist.list.order-by-desc: Más reciente
+gist.list.select-tab: Selecciona una pestaña
+gist.list.liked: Ha gustado
+gist.list.likes: Me gusta
+gist.list.forked: Bifurcado
+gist.list.forked-from: Bifurcado desde
+gist.list.forks: bifurcaciones
+gist.list.files: archivos
+gist.list.last-active: Último activo
+gist.list.no-gists: No hay gists
+
+gist.forks: Bifurcaciones
+gist.forks.view: Ver bifurcación
+gist.forks.no: No hay bifurcaciones públicas
+
+gist.likes: Me gusta
+gist.likes.no: Aún no hay me gusta
+
+gist.revisions: Revisiones
+gist.revision.revised: revisado este gist
+gist.revision.go-to-revision: Ir a revisión
+gist.revision.file-created: file created
+gist.revision.file-deleted: file deleted
+gist.revision.file-renamed: renamed to
+gist.revision.diff-truncated: Diff truncated because it's too large to be shown
+gist.revision.file-renamed-no-changes: File renamed without changes
+gist.revision.empty-file: Empty file
+gist.revision.no-changes: No changes
+gist.revision.no-revisions: No revisions to show
+
+settings: Settings
+settings.email: Email
+settings.email-help: Used for commits and Gravatar
+settings.email-set: Set email
+settings.link-accounts: Link accounts
+settings.link-github-account: Link GitHub account
+settings.link-gitea-account: Link Gitea account
+settings.unlink-github-account: Unlink GitHub account
+settings.unlink-gitea-account: Unlink Gitea account
+settings.delete-account: Delete account
+settings.delete-account-confirm: Are you sure you want to delete your account ?
+settings.add-ssh-key: Add SSH key
+settings.add-ssh-key-help: Used only to pull/push gists using Git via SSH
+settings.add-ssh-key-title: Title
+settings.add-ssh-key-content: Key
+settings.delete-ssh-key: Delete
+settings.delete-ssh-key-confirm: Confirm deletion of SSH key
+settings.ssh-key-added-at: Added
+settings.ssh-key-never-used: Never used
+settings.ssh-key-last-used: Last used
+
+auth.signup-disabled: Administrator has disabled signing up
+auth.login: Login
+auth.signup: Register
+auth.new-account: New account
+auth.username: Username
+auth.password: Password
+auth.register-instead: Register instead
+auth.login-instead: Login instead
+auth.github-oauth: Continue with GitHub account
+auth.gitea-oauth: Continue with Gitea account
+
+error: Error
+
+header.menu.all: All
+header.menu.new: New
+header.menu.search: Search
+header.menu.my-gists: My gists
+header.menu.liked: Liked
+header.menu.admin: Admin
+header.menu.settings: Settings
+header.menu.logout: Logout
+header.menu.register: Register
+header.menu.login: Login
+header.menu.light: Light
+header.menu.dark: Dark
+header.menu.system: System
+footer.powered-by: Powered by %s
+
+pagination.older: Older
+pagination.newer: Newer
+pagination.previous: Previous
+pagination.next: Next
+
+admin.admin_panel: Admin panel
+admin.general: General
+admin.users: Users
+admin.gists: Gists
+admin.configuration: Configuration
+admin.versions: Versions
+admin.ssh_keys: SSH keys
+admin.stats: Estadísticas
+admin.actions: Acciones
+admin.actions.sync-fs: Sincroniza gists desde el sistema de archivos
+admin.actions.sync-db: Sincroniza gists desde la base de datos
+admin.actions.git-gc: Garbage collect git repositories
+admin.id: ID
+admin.user: Usuario
+admin.delete: Borrar
+admin.created_at: Creado
+
+admin.config-link: This configuration can be %s by a YAML config file and/or environment variables.
+admin.config-link-overriden: overridden
+admin.disable-signup: Disable signup
+admin.disable-signup_help: Forbid the creation of new accounts.
+admin.require-login: Require login
+admin.require-login_help: Enforce users to be logged in to see gists.
+admin.disable-login: Disable login form
+admin.disable-login_help: Forbid logging in via the login form to force using OAuth providers instead.
+admin.disable-gravatar: Disable Gravatar
+admin.disable-gravatar_help: Disable the usage of Gravatar as an avatar provider.
+
+admin.users.delete_confirm: ¿Quieres borrar este usuario?
+
+admin.gists.title: Título
+admin.gists.private: ¿Privado?
+admin.gists.nb-files: Nb. archivos
+admin.gists.nb-likes: Nb. me gusta
+admin.gists.delete_confirm: ¿Quieres borrar este gist?
